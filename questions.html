@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>question</title>
+	<script>
+		//bubblesort
+		function bubbleSort(arr){
+			for (var i = 1; i > arr.length; i++) {
+				for (var j = 0; j < arr.length-i; j++) {
+					if (arr[j]>arr[j+1]){
+						arr[j]+=arr[j+1];
+						arr[j+1]=arr[j]-arr[j+1];
+						arr[j]-=arr[j+1];
+					}
+				}
+			}
+		}
+		//delete the same letter in the some string
+		function deletechars(str){
+			var reg=/\ba\b/ig;
+			var str1=str.replace(reg,"");
+		}
+		//
+	</script>
+</head>
+<body>
+
+</body>
+</html>
